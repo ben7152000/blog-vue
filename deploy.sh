@@ -1,5 +1,3 @@
-//deploy.sh
-
 #!/usr/bin/env sh
 
 # 當發生錯誤時終止腳本運行
@@ -16,6 +14,6 @@ git commit -m 'deploy'
 
 # 部署到 https://github.com/ben7152000/blog-vue.git 分支為 gh-pages
 
-git push -f https://github.com/ben7152000/blog-vue.git
+git push -f https://github.com/ben7152000/blog-vue.git master:gh-pages
 
 cd -
